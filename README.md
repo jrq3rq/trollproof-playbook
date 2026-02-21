@@ -4,18 +4,15 @@
 [![GitHub contributors](https://img.shields.io/github/contributors/jrq3rq/trollproof-playbook.svg)](https://github.com/jrq3rq/trollproof-playbook/graphs/contributors)
 [![GitHub issues](https://img.shields.io/github/issues/jrq3rq/trollproof-playbook.svg)](https://github.com/jrq3rq/trollproof-playbook/issues)
 
-## Description
+Free, open-source survival guide for bootstrapped founders in fast-moving fields (AI, software, biotech, edtech, SaaS, etc.). Dodge patent trolls and IP predators **without filing patents**. Focus on speed, real moats, legal kill-switches, and troll-starving tactics. Zero alliances. Zero IP bureaucracy.
 
-**TrollProof Playbook** is a free, open-source survival guide for bootstrapped entrepreneurs in fast-moving fields like AI, software, biotech, and edtech. It empowers you to dodge patent trolls and IP predators without filing patents yourself. Focus on speed, real moats, and smart deterrence—outrun threats instead of fighting them.
-
-Patents can be parasitic; this playbook bets on agility over bureaucracy. It's community-maintained, future-proof via pull requests, and includes templates, checklists, and legal levers (e.g., Alice §101 challenges). **Not legal advice**—consult pros reactively if needed.
+**Not legal advice** — consult professionals reactively if needed.
 
 Download as [PDF](./TrollProof_Playbook.pdf) for offline use.
 
 ## Table of Contents
 
 - [TrollProof Playbook](#trollproof-playbook)
-  - [Description](#description)
   - [Table of Contents](#table-of-contents)
   - [Philosophy](#philosophy)
   - [Getting Started](#getting-started)
@@ -29,24 +26,25 @@ Download as [PDF](./TrollProof_Playbook.pdf) for offline use.
     - [7. Monitoring \& Adaptation](#7-monitoring--adaptation)
     - [8. Insurance Firewall](#8-insurance-firewall)
   - [Templates \& Resources](#templates--resources)
+  - [Niche Adaptations](#niche-adaptations)
   - [Contributing](#contributing)
   - [License](#license)
   - [Disclaimer](#disclaimer)
 
 ## Philosophy
 
-- **Zero Patents**: No filings, alliances, or networks—distrust "helpful" orgs.
-- **Outmaneuver**: Trolls target slow/static firms; evolve faster than litigation (1-3 years).
-- **Legal Levers**: Use free tools like §101 Alice (abstract ideas invalidation), AIA §273 prior user rights, and defensive publication.
-- **Future-Proof**: Modular design; update via community PRs for new laws/tech.
+- **Zero Patents**: No filings, no defensive networks, no "helpful" orgs.
+- **Outmaneuver**: Trolls prey on slow/static targets; evolve faster than litigation (1–3 years).
+- **Legal Levers**: Exploit §101 Alice (abstract ideas), AIA §273 prior user rights, defensive publication, §287 marking defects.
+- **Future-Proof**: Community PRs keep it current with new laws/tech.
 
 ## Getting Started
 
-1. Clone repo: `git clone https://github.com/jrq3rq/trollproof-playbook.git`
-2. Read core sections.
-3. Customize checklists for your niche (e.g., AI via OSS tweaks).
-4. Set up free alerts (Google/USPTO).
-5. Doc everything from day 1.
+1. Fork or clone: `git clone https://github.com/jrq3rq/trollproof-playbook.git`
+2. Read core strategies below.
+3. Customize checklists/templates for your niche (see [Niche Adaptations](#niche-adaptations)).
+4. Set up free alerts (see [radar-alerts-setup-guide.md](./templates/radar-alerts-setup-guide.md)).
+5. Start documenting everything today (see [prior-user-rights-log-template.md](./templates/prior-user-rights-log-template.md)).
 
 ## Core Strategies
 
@@ -54,82 +52,96 @@ Download as [PDF](./TrollProof_Playbook.pdf) for offline use.
 
 Ship relentlessly to make threats obsolete.
 
-- Weekly MVPs: User-test + pivot templates in [templates/agility.md](./templates/agility.md).
-- Automate: CI/CD checklists; A/B tools.
-- Goal: Litigation chases v10 while you're on v20.
+- Weekly updates: Use [agility-checklist.md](./templates/agility-checklist.md)
+- Automate deploys & A/B tests
+- Goal: Litigation chases v3 while you're on v15
 
 ### 2. Impenetrable Moats
 
-Build non-IP defenses.
+Build non-patent defenses.
 
-- Data Fortress: Trade secrets via NDAs/encryption—[template NDA](./templates/nda.md).
-- Network Lock: Community growth loops for loyalty.
-- Brand Armor: Niche content marketing playbook.
+- Data Fortress: Trade secrets via NDAs — [nda-basic.md](./templates/nda-basic.md), [moats-worksheet.md](./templates/moats-worksheet.md)
+- Network Lock: Community/loyalty loops
+- Brand Armor: Niche content dominance
 
 ### 3. Infringement Shield
 
 Evade claims proactively.
 
-- OSS Base: Stack on free frameworks; unique tweaks.
-- DIY Scans: Quarterly USPTO/Google Patents guide—[scan checklist](./templates/scan-checklist.md).
-- Public Domain: Use expired tech.
-- Defensive Publication: Publish non-core ideas on GitHub/arXiv to create prior art—[how-to](./templates/defensive-pub.md).
+- OSS base + unique tweaks
+- DIY scans: [scan-checklist.md](./templates/scan-checklist.md)
+- Design around: [design-around-cookbook.md](./templates/design-around-cookbook.md)
+- Defensive Publication: [defensive-publication-guide.md](./templates/defensive-publication-guide.md), [defensive-pub-template.md](./templates/defensive-pub-template.md)
 
 ### 4. Troll Deterrence Kit
 
-Prep reactive kills.
+Prep reactive weapons.
 
-- Doc Everything: Git timestamps for AIA §273 prior user rights (commercial use proof 1yr pre-filing).
-- Response Arsenal: Demand letter templates—challenge §101 Alice (abstract + no transformation = ineligible; software/AI vulnerable)—[templates](./templates/response-arsenal.md).
-- Marking Poison: Demand §287 compliance (no marking → no damages).
-- Fight Smart: Early motions; crowdsource prior art; venue shifts.
+- Document everything: [prior-user-rights-log-template.md](./templates/prior-user-rights-log-template.md)
+- Demand responses: [demand-letter-response-basic.md](./templates/demand-letter-response-basic.md), [demand-letter-response-aggressive.md](./templates/demand-letter-response-aggressive.md)
+- §101 Alice attacks: [alice-101-challenge-outline.md](./templates/alice-101-challenge-outline.md)
+- Marking poison: Demand §287 compliance
 
 ### 5. Public Shame + Deterrence Loop
 
-Expose trolls.
+Sunlight kills trolls.
 
-- Anonymize + post demands on X/LinkedIn—[posting templates](./templates/shame-templates.md).
-- Tag EFF/Unified Patents.
-- Builds deterrence; trolls fold on publicity.
+- Anonymize & post: [shame-post-template-x.md](./templates/shame-post-template-x.md), [shame-post-template-linkedin.md](./templates/shame-post-template-linkedin.md)
+- Tag @EFF @unifiedpatents @trollingeffects
+- Redact safely: [demand-letter-redaction-guide.md](./templates/demand-letter-redaction-guide.md)
 
 ### 6. Industry-Specific Risk Radar
 
-Monitor threats.
+Spot threats early.
 
-- Monthly Alerts: Google setup for keywords (e.g., "AI [your-niche] patents").
-- Preemptive Pivot: Tweak features on emerging claims.
+- Set alerts: [radar-alerts-setup-guide.md](./templates/radar-alerts-setup-guide.md)
+- Keywords by niche: [keyword-suggestion-list.md](./resources/keyword-suggestion-list.md)
 
 ### 7. Monitoring & Adaptation
 
 Stay vigilant.
 
-- Weekly Reviews: News/social trends checklist.
-- Backup: Bootstrap to revenue; reactive counsel.
+- Weekly ritual: [weekly-review-checklist.md](./templates/weekly-review-checklist.md)
+- Bootstrap to revenue → reactive counsel
 
 ### 8. Insurance Firewall
 
-Transfer risk.
+Transfer risk cheaply.
 
-- IP Liability: Compare policies (~$1-5K/yr)—[matcher links](./resources/insurance.md).
+- Compare policies: [insurance-comparison-worksheet.md](./templates/insurance-comparison-worksheet.md)
 
 ## Templates & Resources
 
-- [All Templates](./templates/): NDAs, responses, checklists.
-- [Case Studies](./cases/): Anonymized wins (e.g., AI startup outruns edtech troll).
-- [Resources](./resources/): Free tools (USPTO, Google Patents, EFF Trolling Effects).
-- [Niche Add-Ons](./niches/): Adapt for AI, biotech, etc.—contribute yours!
+- **Templates** — all in [`/templates/`](./templates/): NDAs, responses, checklists, guides
+- **Resources** — curated tools/links/cases in [`/resources/`](./resources/):
+  - [keyword-suggestion-list.md](./resources/keyword-suggestion-list.md)
+  - [case-studies-anon.md](./resources/case-studies-anon.md)
+  - [useful-links.md](./resources/useful-links.md)
+
+## Niche Adaptations
+
+Community-contributed tweaks for specific fields — all in [`/niches/`](./niches/):
+
+- [ai-saas.md](./niches/ai-saas.md) — AI-powered SaaS, agents, automation
+- [edtech.md](./niches/edtech.md) — personalized learning, homeschool, neurodivergent tools
+- [biotech.md](./niches/biotech.md) — gene editing, AI drug discovery, genomics
+
+Contribute your niche via PR!
 
 ## Contributing
 
-Fork + PR! Add templates, cases, or updates. Follow [CONTRIBUTING.md](./CONTRIBUTING.md). All welcome—keep it founder-first, zero-trust.
+Fork + PR! Add templates, cases, niches, or fixes.
+See [CONTRIBUTING.md](./CONTRIBUTING.md) — keep it founder-first, zero-trust.
 
 ## License
 
-CC0 1.0 Universal—public domain, free to use/modify/share.
+CC0 1.0 Universal — public domain. Free to use, modify, share.
 
 ## Disclaimer
 
-Not legal/financial advice. Laws change; consult experts for your situation. Use at own risk.
+Not legal, financial, or professional advice. Laws change. Consult experts for your situation. Use at your own risk.
+
+Stay fast. Stay documented. Stay free.
 <!--
 ```markdown
 TrollProof-Playbook/
